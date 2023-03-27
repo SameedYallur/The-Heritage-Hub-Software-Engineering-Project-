@@ -1,0 +1,26 @@
+{
+  "name": "testing-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": " nodemon ./index.js",
+    "test": "mocha ./art_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0"
+  }
+}
