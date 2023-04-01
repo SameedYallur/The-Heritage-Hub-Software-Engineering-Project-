@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./index.js",
     "dev": " nodemon ./index.js",
-    "test": "mocha ./art_test.js"
+    "test": "mocha ./tests/art_test.js"
   },
   "keywords": [],
   "author": "",
